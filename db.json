@@ -1,16 +1,99 @@
 {
-  "posts":[
+  "authorities": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
-    }
-  ],
-  "comments" : [
+      "id": 1,
+      "Id": 1,
+      "name": "",
+      "code": "",
+      "vendorId": "",
+      "CountryId": null,
+      "CityName": "",
+      "AddressLine1": "",
+      "AddressLine2": "",
+      "SubdivisionId": null,
+      "PostalCode": "",
+      "accountInfo": {
+        "taxExemptNumber": "",
+        "accountNumber": "",
+        "taxFilingUrl": "",
+        "loginName": "",
+        "loginPassword": ""
+      },
+      "paymentInfo": {
+        "paymentMethod": "",
+        "routingNumber": "",
+        "accountNumber": "",
+        "CurrencyId": null
+      },
+      "reportInfoes": [
+        {
+          "requirement": "",
+          "description": ""
+        }
+      ]
+    },
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "id": 2,
+      "Id": 2,
+      "name": "POP",
+      "code": "",
+      "vendorId": "",
+      "CountryId": null,
+      "CityName": "",
+      "AddressLine1": "",
+      "AddressLine2": "",
+      "SubdivisionId": null,
+      "PostalCode": "",
+      "accountInfo": {
+        "taxExemptNumber": "",
+        "accountNumber": "",
+        "taxFilingUrl": "",
+        "loginName": "",
+        "loginPassword": ""
+      },
+      "paymentInfo": {
+        "paymentMethod": "",
+        "routingNumber": "",
+        "accountNumber": "",
+        "CurrencyId": null
+      },
+      "reportInfoes": []
+    },
+    {
+      "id": 3,
+      "Id": 3,
+      "name": "Pakola",
+      "code": "PKR",
+      "vendorId": "PK12",
+      "CountryId": 586,
+      "CityName": "Lahore",
+      "AddressLine1": "Township",
+      "AddressLine2": "",
+      "SubdivisionId": 3109,
+      "PostalCode": "54000",
+      "accountInfo": {
+        "taxExemptNumber": "Pk-12121233",
+        "accountNumber": "PK Mezn 12121921-2102-0",
+        "taxFilingUrl": "",
+        "loginName": "anti@pam.com",
+        "loginPassword": "Sample@123"
+      },
+      "paymentInfo": {
+        "PaymentMethodId": 1,
+        "routingNumber": "Pk-12121212",
+        "accountNumber": "PK-121212 -121212121223",
+        "CurrencyId": 123
+      },
+      "reportInfoes": [
+        {
+          "description": "Check 1",
+          "requirement": "Testing the requirements 1"
+        },
+        {
+          "description": "Check 2",
+          "requirement": "Testing the requirements 2 "
+        }
+      ]
     }
   ]
 }
